@@ -1,0 +1,99 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+ /* Hun's page. 
+ UI_UX class, Bootstrap sample file 1, CSS File*/
+
+body{
+
+  background-color:rgb(67, 173, 40);
+  color: rgb(165, 153, 47);
+
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+  }
+  
+  body { margin: 0; } 
+  div#slider { overflow: hidden; }
+  div#slider figure img { width: 20%; float: left; }
+  div#slider figure { 
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite; 
+  }
+  
+ h2:hover{
+   color: rgb(236, 226, 158)
+ }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+
+  font-family: 'Staatliches', cursive;
+  font-style: italic;
+
+}
+
+/* Adding my own header color styles. */
+.headerStyle{
+  color: rgb(255, 255, 255);
+}
+
+.headerStyle:hover{
+
+  color: rgb(197, 185, 116);
+  background-image: url("https://s3.amazonaws.com/s3.weei.com/s3fs-public/styles/nts_image_cover_tall_775x425/public/Irving-Kyrie%20Celtics%2001.29.18%20Isaiah%20J.%20Downing%20USA.jpg?itok=3q5Me68p&c=b368c1b45baea5b04282772c03567a05");
+
+  background-position:top;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+
+ header {
+  padding: 400px 0 250px;
+  
+  background-image: url("http://hoops-japan.com/wp-content/uploads/2018/08/20180807%E3%82%AB%E3%82%A4%E3%83%AA%E3%83%BC.jpg");
+
+  /*Center and position the image. */
+
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+/* @media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  } 
+}*/
+
+section {
+  padding: 100px 0;
+
+
+}
