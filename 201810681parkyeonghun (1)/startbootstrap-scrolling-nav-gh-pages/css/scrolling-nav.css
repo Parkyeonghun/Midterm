@@ -7,13 +7,21 @@
  /* Hun's page. 
  UI_UX class, Bootstrap sample file 1, CSS File*/
 
-body{
+ body{
 
   background-color:rgb(67, 173, 40);
   color: rgb(165, 153, 47);
 
   font-family: 'Roboto Condensed', sans-serif;
 
+}
+
+
+
+.photo{
+  height:170px ;
+  width:170px;
+  border-radius: 50%;
 }
 
 @keyframes slidy {
@@ -66,7 +74,7 @@ h6{
 .headerStyle:hover{
 
   color: rgb(197, 185, 116);
-  background-image: url("https://s3.amazonaws.com/s3.weei.com/s3fs-public/styles/nts_image_cover_tall_775x425/public/Irving-Kyrie%20Celtics%2001.29.18%20Isaiah%20J.%20Downing%20USA.jpg?itok=3q5Me68p&c=b368c1b45baea5b04282772c03567a05");
+  background-image: url("https://usatcelticswire.files.wordpress.com/2019/01/gettyimages-1074814068.jpg?w=1000&h=600&crop=1");
 
   background-position:top;
   background-repeat:no-repeat;
@@ -75,15 +83,19 @@ h6{
 
 
  header {
+   
   padding: 400px 0 250px;
   
   background-image: url("http://hoops-japan.com/wp-content/uploads/2018/08/20180807%E3%82%AB%E3%82%A4%E3%83%AA%E3%83%BC.jpg");
 
-  /*Center and position the image. */
-
-  background-position:center;
+  /*Center and position the image. */ 
+  background-position:top;
   background-repeat:no-repeat;
   background-size:cover;
+}
+
+.hightlight{
+  padding: 100px 100px 100px 100px;
 }
 
 /* @media (min-width: 992px) {
@@ -94,6 +106,5 @@ h6{
 
 section {
   padding: 100px 0;
-
 
 }
